@@ -19,7 +19,7 @@ def submit():
     # Convert the time value to an integer
     time = int(time)
     # Run the script for the specified time
-    subprocess.run(["python", "C:/Users/wolfi/OneDrive/Desktop/Coding/Lock In Program - Alpha/program.py"], timeout = time)
+    subprocess.run(["python", "/Program.py"], timeout = time)
     subprocess.terminate()
 
 submit_button = tk.Button(window, text="Submit", command=submit)
